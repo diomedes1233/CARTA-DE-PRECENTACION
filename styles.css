@@ -138,16 +138,22 @@ footer {
   min-height: 10vh;
 }
 
-footer div {
-  margin: 10px;
+.foot{
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
 }
 
-footer div i {
-  margin: 0 15px;
+.iconoss {
+  display: flex;
+  list-style: none;
+  padding: 15px;
 }
 
-footer p {
-  margin-right: 25%;
+.iconoss a {
+  display: flex;
+  padding: 15px;
+  color: #000;
 }
 
 .container-secundario {
