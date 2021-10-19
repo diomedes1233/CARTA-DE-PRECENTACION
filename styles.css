@@ -6,7 +6,8 @@
 }
 
 body {
-  background: #fff;
+  
+  background-image: url(https://www.lhasalimited.org/Images/Blog/software%20development%20science%20abstract%20background%201170px.jpg);
 }
 
 header {
@@ -55,18 +56,16 @@ header nav a:hover {
   opacity: 0.7;
 }
 
-.container {
-  min-height: 70vh;
+.container-sobremi {
+  min-height: calc(100vh - 100px 300px);
   background: #fff;
   width: 95%;
   margin: auto;
-  /* Flexbox */
   display: flex;
+  flex-direction: row;
+  
 }
 
-.container-principal {
-  display: flex;
-}
 
 .tex-principal {
   /* Flexbox */
@@ -79,6 +78,7 @@ header nav a:hover {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
+  color: #fff;
 }
 
 .tex-principal H1 {
@@ -98,18 +98,18 @@ header nav a:hover {
 
 .perfil .foto {
   width: 250px;
-  height: 300px;
-  border-radius: 45%;
+  height: 400px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0 auto;
 }
 
 .perfil .foto img {
-  width: 100%;
+  width: 150%;
   height: 100%;
   object-fit: cover;
-  margin-top: 25%;
+  /* margin-top: 25%; */
+  
 }
 
 .perfil {
@@ -117,6 +117,7 @@ header nav a:hover {
   flex-direction: column;
   padding: 20px 40px;
   margin-left: 15%;
+  color : #fff
 }
 
 .iconos {
@@ -136,12 +137,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   min-height: 10vh;
-}
-
-.foot{
-  display: flex;
-  justify-content: center;
-  margin-right: 50px;
 }
 
 .iconoss {
@@ -197,8 +192,12 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 100%;
+  width: 50%;
   padding: 30px 0;
+  margin-left: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
 }
 
 .progress .pregress1 {
