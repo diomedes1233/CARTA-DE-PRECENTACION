@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
-  
   background-image: url(https://www.lhasalimited.org/Images/Blog/software%20development%20science%20abstract%20background%201170px.jpg);
 }
 
@@ -63,9 +63,7 @@ header nav a:hover {
   margin: auto;
   display: flex;
   flex-direction: row;
-  
 }
-
 
 .tex-principal {
   /* Flexbox */
@@ -96,20 +94,22 @@ header nav a:hover {
   font-size: 26px;
 }
 
+.foto {
+  display: flex;
+  justify-content: center;
+ 
+  width: 100%;
+  margin-right: 100%;
+}
+
 .perfil .foto {
   width: 250px;
   height: 400px;
-  position: relative;
-  /* overflow: hidden; */
-  margin: 0 auto;
 }
 
 .perfil .foto img {
   width: 150%;
   height: 100%;
-  object-fit: cover;
-  /* margin-top: 25%; */
-  
 }
 
 .perfil {
@@ -117,7 +117,7 @@ header nav a:hover {
   flex-direction: column;
   padding: 20px 40px;
   margin-left: 15%;
-  color : #fff
+  color: #fff;
 }
 
 .iconos {
@@ -137,6 +137,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   min-height: 10vh;
+}
+
+.foot {
+  margin-right: 40px;
 }
 
 .iconoss {
@@ -197,7 +201,6 @@ footer {
   margin-left: 50%;
   margin-top: 30px;
   margin-bottom: 30px;
-  
 }
 
 .progress .pregress1 {
